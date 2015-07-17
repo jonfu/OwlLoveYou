@@ -1,11 +1,3 @@
-// Googly Eye Goggles
-// By Bill Earl
-// For Adafruit Industries
-//
-// The googly eye effect is based on a physical model of a pendulum.
-// The pendulum motion is driven by accelerations in 2 axis.
-// Eye color varies with orientation of the magnetometer
-
 #include <Wire.h>
 #include <Adafruit_Sensor.h>
 #include <Adafruit_NeoPixel.h>
@@ -1119,5 +1111,6 @@ void setParametersRightRing(int irRight) {
     
 
 }
+
 
 
